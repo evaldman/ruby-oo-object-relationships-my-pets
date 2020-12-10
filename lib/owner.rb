@@ -1,3 +1,5 @@
+require_relative './dog'
+require_relative './cat'
 class Owner
 attr_reader :name, :species
 @@all = []
